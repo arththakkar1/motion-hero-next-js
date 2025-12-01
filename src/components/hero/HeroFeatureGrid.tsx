@@ -5,7 +5,7 @@ const IMAGE_URL =
   "https://images.saymedia-content.com/.image/t_share/MTczOTM5NzMzODQyMzcxNjQ4/guts-a-berserk-character-analysis.jpg";
 
 const features = [
-  "12+ hero layouts",
+  "20+ hero layouts",
   "Monochrome first",
   "Responsive out of the box",
   "Next.js + Tailwind",

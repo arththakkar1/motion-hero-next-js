@@ -5,7 +5,7 @@ const IMAGE_URL =
   "https://images.saymedia-content.com/.image/t_share/MTczOTM5NzMzODQyMzcxNjQ4/guts-a-berserk-character-analysis.jpg";
 
 const stats = [
-  { label: "Layouts", value: "12+" },
+  { label: "Layouts", value: "20+" },
   { label: "Lines of CSS", value: "< 400" },
   { label: "Color palette", value: "B/W" },
 ];

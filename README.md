@@ -128,9 +128,7 @@ Each hero section is accessible via its own route:
 
 ## 📸 Preview
 
-```
-[Screenshot placeholder - Add your hero gallery screenshot here]
-```
+![Screenshot](public/Screenshot.png)
 
 ---
 

@@ -41,7 +41,7 @@ export default function HomePage() {
           </h1>
 
           <p className="text-gray-400 mt-4 text-lg max-w-2xl mx-auto">
-            Explore 17 beautiful, modern, animated hero sections — crafted in
+            Explore 20 beautiful, modern, animated hero sections — crafted in
             pure black & white using Next.js 16, Tailwind CSS, Inter, and Framer
             Motion.
           </p>

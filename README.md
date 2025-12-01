@@ -1,12 +1,12 @@
 # Motion Hero
 
-> A collection of 20 modern, cinematic hero sections for Next.js applications
+> A collection of 12 modern, cinematic hero sections for Next.js applications
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Motion Hero is a curated library of 20 production-ready hero sections designed with a minimal, monochrome aesthetic. Built with Next.js 16 App Router and styled with TailwindCSS, each hero component is crafted for maximum visual impact with clean, modern layouts.
+Motion Hero is a curated library of 12 production-ready hero sections designed with a minimal, monochrome aesthetic. Built with Next.js 16 App Router and styled with TailwindCSS, each hero component is crafted for maximum visual impact with clean, modern layouts.
 
 ---
 
@@ -168,7 +168,7 @@ className = "bg-slate-900 text-slate-50";
 Each component is built with TailwindCSS, making responsive adjustments simple:
 
 ```tsx
-className = "grid md:grid-cols-2 gap-8";
+className = "grid md:grid-cols-2 gap-8"; // Modify breakpoints and spacing
 ```
 
 ---
@@ -184,6 +184,7 @@ export default function Home() {
   return (
     <main>
       <HeroSplit />
+      {/* Your other content */}
     </main>
   );
 }
@@ -205,7 +206,7 @@ Hero image sourced from Saymedia Content. All hero designs are inspired by moder
 
 ## 🔗 Links
 
-- [Live Demo](#) _(coming soon)_
+- [Live Demo](https://motion-hero-next-js.vercel.app)
 
 ---
 

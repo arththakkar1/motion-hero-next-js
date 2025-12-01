@@ -12,7 +12,7 @@ Motion Hero is a curated library of 20 production-ready hero sections designed w
 
 ## ✨ Features
 
-- 🎨 **12 Unique Hero Designs** — From minimal to feature-rich layouts
+- 🎨 **20 Unique Hero Designs** — From minimal to feature-rich layouts
 - 🖤 **Monochrome Theme** — Elegant black & white design system
 - 🎬 **Cinematic Appeal** — High-impact visual storytelling
 - ⚡ **Next.js 16 App Router** — Modern routing architecture

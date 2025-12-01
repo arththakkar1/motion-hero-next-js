@@ -1,4 +1,3 @@
-// src/components/hero/HeroCTA.tsx
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 

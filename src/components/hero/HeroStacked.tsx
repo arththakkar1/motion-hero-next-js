@@ -1,4 +1,3 @@
-// src/components/hero/HeroStacked.tsx
 import Image from "next/image";
 
 const IMAGE_URL =

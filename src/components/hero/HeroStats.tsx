@@ -1,4 +1,3 @@
-// src/components/hero/HeroStats.tsx
 import Image from "next/image";
 
 const IMAGE_URL =

@@ -1,4 +1,3 @@
-// src/components/hero/HeroNewsletter.tsx
 import Image from "next/image";
 
 const IMAGE_URL =

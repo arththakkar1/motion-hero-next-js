@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "motion/react";
 
 const heroes = [
   { slug: "minimal", label: "Minimal" },
@@ -30,12 +29,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-20">
       <div className="max-w-6xl mx-auto">
-        <motion.header
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="mb-16 text-center"
-        >
+        <header className="mb-16 text-center">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
             Hero Library
           </h1>
@@ -47,22 +41,13 @@ export default function HomePage() {
           </p>
 
           <div className="w-24 h-px bg-white/20 mx-auto mt-6" />
-        </motion.header>
+        </header>
 
-        <motion.section
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.2, duration: 0.7 }}
-          className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-        >
+        <section className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {heroes.map((hero, index) => (
-            <motion.div
-              key={hero.slug}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: index * 0.04 }}
-            >
+            <div key={hero.slug}>
               <Link
+                key={index}
                 href={`/heroes/${hero.slug}`}
                 className="group border border-white/10 rounded-xl p-5 
                 hover:border-white/40 transition-all 
@@ -85,9 +70,9 @@ export default function HomePage() {
                   View demo →
                 </span>
               </Link>
-            </motion.div>
+            </div>
           ))}
-        </motion.section>
+        </section>
       </div>
     </main>
   );
